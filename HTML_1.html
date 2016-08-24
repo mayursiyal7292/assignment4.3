@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title></title>
+		<style>
+			div {
+			width: 100px;
+			height: 100px;
+			background: green;
+			position: relative;
+			-webkit-animation: mymove 5s; /* Chrome, Safari, Opera */
+			animation: mymove 5s;;
+			display: inline;
+			margin: 10px;
+			padding: 40px;
+			clear: both;
+			top:11%;
+			}
+			@-webkit-keyframes mymove {
+			0%   {border-radius:0; background: orange;}
+			25%  {border-radius:25%; background: orange;}
+			50%  {border-radius:50%; background: orange;}
+			75%  {border-radius:75%; background: orange;}
+			100% {border-radius:100%; background: orange;}
+			}
+			@keyframes mymove {
+			0%   {border-radius:0; background: orange;}
+			25%  {border-radius:25%; background: orange;}
+			50%  {border-radius:50%; background: orange;}
+			75%  {border-radius:75%; background: orange;}
+			100% {border-radius:100%; background: orange;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="cricle">Box</div>
+	</body>
+</html>
